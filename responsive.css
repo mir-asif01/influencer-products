@@ -1,55 +1,72 @@
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:688px) {
     .container{
         width: 100%;
-        padding: 7px;
+        padding: 10px;
     }
-    .container nav .menu{
+    .container nav{
         display: none;
     }
+    /* first-banner */
     .container .first-banner{
         flex-direction: column-reverse;
-        width: 100%;
-        text-align: center;
-    }
-    .container .first-banner img{
-        width: 100%;
     }
     .container .first-banner .info{
         width: 100%;
+        text-align: center;
     }
+    .container .first-banner .info p{
+        text-align: justify;
+    }
+    .container .first-banner .banner-img{
+        width: 100%;
+    }
+    /* companies */
     .container .companies{
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        justify-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    /* collection */
+    .container .popular-collection{
+        width: 100%;
+    }
+    .container .popular-collection .p-c-heading{
         width: 100%;
     }
     .container .popular-collection .collections{
         grid-template-columns: repeat(1,1fr);
     }
-    .container .popular-collection h1{
-        width: 100%;
-    }
-    .container .popular-collection .more{
-        width: 100%;
-    }
     .container .popular-collection .collections .collection{
         width: 100%;
     }
-    .container .popular-collection .collections .collection .info{
-        width: 100%;
+    .container .popular-collection .more{
+        text-align: center;
     }
+    /*last banner*/
     .container .last-banner{
-        flex-direction: column;
-        margin: 30px auto;
+        flex-direction: column-reverse;
+    }
+    .container .last-banner .last-banner-img img{
+        width: 100%;
     }
     .container .last-banner .last-banner-info{
         width: 100%;
+        margin-bottom: 20px;
     }
-    .container .last-banner .last-banner-img{
-        width: 100%;
+    .container .last-banner .last-banner-info h1{
+        text-align: center;
+    
     }
+    .container .last-banner .last-banner-info p{
+        text-align: justify;
+    }
+    /* footer */
     footer{
         width: 100%;
-        background-color: red;
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 20px;
     }
+    
 }
