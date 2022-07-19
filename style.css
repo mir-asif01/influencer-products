@@ -1,3 +1,24 @@
+/* 
+
+
+
+
+
+
+1-footer logo sections margin
+2-add other infos in collection sections
+3-collection sections products description texts font size reducing.
+4-make responsive for mobile..
+
+
+
+
+
+
+
+
+
+ */
 body{
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -94,6 +115,13 @@ nav .menu .menu-item{
 /* collections */
 .popular-collection{
     margin-bottom: 50px;
+}
+.popular-collection .more{
+    margin-top: 0px;
+    text-align: right;
+}
+.popular-collection .more i{
+    margin-left: 5px;
 }
 .popular-collection .collections .collection img{
     width: 220px;
