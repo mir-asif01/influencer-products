@@ -1,0 +1,55 @@
+@media only screen and (max-width:550px) {
+    .container{
+        width: 100%;
+        padding: 7px;
+    }
+    .container nav .menu{
+        display: none;
+    }
+    .container .first-banner{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+    }
+    .container .first-banner img{
+        width: 100%;
+    }
+    .container .first-banner .info{
+        width: 100%;
+    }
+    .container .companies{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        justify-items: center;
+        width: 100%;
+    }
+    .container .popular-collection .collections{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container .popular-collection h1{
+        width: 100%;
+    }
+    .container .popular-collection .more{
+        width: 100%;
+    }
+    .container .popular-collection .collections .collection{
+        width: 100%;
+    }
+    .container .popular-collection .collections .collection .info{
+        width: 100%;
+    }
+    .container .last-banner{
+        flex-direction: column;
+        margin: 30px auto;
+    }
+    .container .last-banner .last-banner-info{
+        width: 100%;
+    }
+    .container .last-banner .last-banner-img{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        background-color: red;
+    }
+}
