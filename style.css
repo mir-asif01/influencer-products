@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/* utilities */
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 12px;
+    background-color: #F37878;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+.btn-i{
+    margin-left: 5px;
+}
+.b-i-w{
+    width: 300px;
+}
+.font-size-large{
+    font-size: 40px;
+}
+hr{
+    background-image: linear-gradient(to right,whitesmoke,gray,whitesmoke);
+}
+.fa-star{
+    color: gold;
+}
+.see-more{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+    position: relative;
+    right: 0%;
+}
+#logo-style{
+    text-align: none;
+    color: whitesmoke;
+}
+/* navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    color: blue;
+    font-size: 25px;
+}
+nav .menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav .menu .menu-item{
+    margin-left: 20px;
+    font-size: 13px;
+}
+/* first-banner */
+.first-banner{
+    display: flex;
+    margin: 30px auto;
+}
+.first-banner .info{
+    width: 60%;
+}
+.first-banner .banner-img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/Circle-design.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* companies */
+.companies{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.companies img{
+    width: 80px;
+}
+/* collections */
+.popular-collection{
+    margin-bottom: 50px;
+}
+.popular-collection .collections .collection img{
+    width: 220px;
+}
+.popular-collection h1{
+    text-align: center;
+    margin: 30px 0px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 25px;
+    grid-column-gap: 15px;
+    margin-bottom: 40px;
+
+}
+.collections .collection{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.collections .collection:hover{
+    box-shadow: 3px 3px 10px 5px gray;
+}
+.collections .collection p{
+    color: gray;
+}
+/* last-banner */
+.last-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.last-banner .last-banner-img{
+    width: 45%;
+}
+.last-banner .last-banner-info{
+    width: 55%;
+}
+.last-banner .last-banner-info h1{
+    font-size: 20px;
+}
+/* footer */
+footer{
+    width: 100%;
+    background-color: #06121c;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px 10px;
+}
+footer .text{
+    color: whitesmoke;
+    text-align: center;
+}
+footer .social{
+    color: #66BFBF;
+}
